@@ -728,7 +728,7 @@ margin-top: 0px;
   justify-content: center;
   fill: transparent;
 }
-.checkbox-input:checked + .checkbox-icon {
+.checkbox-input:checked + .checkbox-text.checkbox-icon {
   background-color: var(--brand-color-4);
   border: none;
   fill: var(--brand-color-2);
