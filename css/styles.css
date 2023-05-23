@@ -441,6 +441,9 @@ section {
   width: 264px;
   height: 40px;
   color: var(--brand-color-2);
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 .subscribe-input::placeholder {
   font-family: 'Roboto', sans-serif;
@@ -473,7 +476,9 @@ section {
   border: none;
   min-width: 165px;
   cursor: pointer;
-  gap:16px;
+}
+.subscribe-icon {
+  margin-left: 16px;
 }
 /* portfolio styles */
 
@@ -658,38 +663,44 @@ padding-top: 72px;
 margin-bottom: 16px;
 margin-top: 0px;
 }
+.label-wrapper {
+  margin-bottom: 8px;
+}
 .form-input {
   margin-top: 0;
-  border: 1px solid rgba(46, 47, 66, 0.4);
+  border: 1px solid rgba(46, 47, 66, 0.2);
   border-radius: 4px;
   width: 100%;
-  padding-top:8px;
-  padding-bottom: 8px;
-  padding-left: 34px;
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  height: 40px;
+  padding-left: 38px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: transparent;
+  outline: transparent;
 }
 .form-input:focus-within {
   outline: none;
-  border: 1px solid var(--brand-color-1);
+  border-color: var(--brand-color-1);
   border-radius: 4px;
 }
 .form-comment:focus-within {
   outline: none;
-  border: 1px solid var(--brand-color-1);
+  border-color: var(--brand-color-1);
   border-radius: 4px;
 }
 .form-field:focus-within > .form-icon{
   fill: var(--brand-color-1);
 }
 .form-label {
-  display: flex;
-  flex-direction: column;
+  display: block;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8E8F99;
   margin-bottom: 4px;
+}
+.comment {
+  margin-bottom: 16px;
 }
 .form-field {
   margin-top: 0;
@@ -715,16 +726,19 @@ margin-top: 0px;
 }
 .form-comment {
   resize: none;
-  min-height: 120px;
+  height: 120px;
   margin-top: 0;
-  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   width: 100%;
-  padding-top:8px;
-  padding-bottom: 8px;
-  padding-left: 16px;
-  margin-bottom: 20px;
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  border: 1px solid rgba(46, 47, 66, 0.2);
+  background-color: transparent;
+  padding: 8px 16px;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-comment::placeholder {
   font-weight: 400;
