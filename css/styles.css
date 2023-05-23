@@ -723,6 +723,7 @@ margin-top: 0px;
   height: 16px;
   border: 1px solid var(--brand-color-3);
   display: inline-flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
