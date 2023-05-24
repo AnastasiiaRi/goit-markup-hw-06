@@ -730,7 +730,7 @@ margin-top: 0px;
 .checkbox-input:checked + .checkbox-text .checkbox-icon {
   background-color: var(--brand-color-4);
   fill: var(--brand-color-2);
-  border-color: var(--brand-color-4);
+  border: none;
 }
 .form-comment {
   resize: none;
