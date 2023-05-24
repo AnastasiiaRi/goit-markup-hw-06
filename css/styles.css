@@ -731,6 +731,7 @@ margin-top: 0px;
   background-color: var(--brand-color-4);
   fill: var(--brand-color-2);
   border: none;
+  border-color: var(--brand-color-4);
 }
 .form-comment {
   resize: none;
